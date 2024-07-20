@@ -141,5 +141,6 @@ scene.setBackgroundImage(img`
     `)
 tiles.setCurrentTilemap(tilemap`level2`)
 forever(function () {
+    scene.cameraFollowSprite(Bob)
     Bob.setStayInScreen(true)
 })
